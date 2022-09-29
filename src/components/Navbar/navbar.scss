@@ -1,0 +1,39 @@
+.toolbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24rem;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+    gap: 1rem;
+  }
+}
+
+.logo {
+  color: var(--highlight);
+  font-family: inherit;
+}
+
+.login-btn {
+  padding: 0.5rem 2rem !important;
+  background-color: var(--white) !important;
+  color: var(--highlight) !important;
+
+  @media screen and (max-width: 768px) {
+    padding: 0.4rem 2rem !important;
+    font-size: 1.4rem !important;
+  }
+}
+
+.account-circle {
+  font-size: 2.5rem !important;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem !important;
+  }
+}
+
+.drawer-container {
+  background-color: var(--secondary) !important;
+}
